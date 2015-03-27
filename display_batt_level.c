@@ -7,12 +7,11 @@
 /* lean and mean system property display */
 
 char *filename_ac       = "/sys/bus/acpi/drivers/ac/ACPI0003:00/power_supply/ACAD/online";
-char *filename_bat0     = "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0A:00/power_supply/BAT0/charge_now";
-char *filename_maxbat0  = "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0A:00/power_supply/BAT0/charge_full"; 
+char *filename_bat0     = "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0A:00/power_supply/BAT1/charge_now";
+char *filename_maxbat0  = "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0A:00/power_supply/BAT1/charge_full"; 
 
 int maxvalue        = 0;
 int minvalue        = 0;
-
 
 const int grey   = 0x7f7f7f;
 const int red    = 0xff0000;

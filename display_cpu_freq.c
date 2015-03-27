@@ -15,9 +15,15 @@ int min_value = 50;
 int max_value = 100;
 float scale  = 0.000001;
 
-int low_color = 0x00ff00;  // green
-int med_color = 0xff9000;  // orange
-int high_color = 0xff0000; // red
+/*
+int low_color = 0x007f00;  // dim green
+int med_color = 0x7f5000;  // dim orange
+int high_color = 0x7f0000; // dim red
+*/
+
+int low_color = 0x00ff00;  // bright green
+int med_color = 0xff9000;  // bright orange
+int high_color = 0xff0000; // bright red
 
 
 int read_int(int fd){

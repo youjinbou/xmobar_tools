@@ -43,7 +43,8 @@ int main (int argc, char **argv){
 
   value     = read_int_value(filename_value);
   max_value = read_int_value(filename_maxvalue);
-
+  min_value /= scale;
+  
   if (value < min_value) {
     color = low_color;
   }
